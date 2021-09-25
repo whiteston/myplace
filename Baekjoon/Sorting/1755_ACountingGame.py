@@ -1,7 +1,7 @@
 """
 # [1755번 숫자놀이](https://www.acmicpc.net/problem/1755)
 
-## 5.숫자놀이
+## 6.숫자놀이
 
 79를 영어로 읽되 숫자 단위로 하나씩 읽는다면 "seven nine"이 된다. 80은 마찬가지로 "eight zero"라고 읽는다. 
 79는 80보다 작지만, 영어로 숫자 하나씩 읽는다면 "eight zero"가 "seven nine"보다 사전순으로 먼저 온다.
