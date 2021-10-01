@@ -21,6 +21,7 @@ for z in range(K):
     num = list(map(int, input().split()))
     del num[0]
     num.sort()
+    # 21 ~ 23 한줄로 정리 가능. score = sorted(list(map(int, input().split()))[1:])
     sub = []
     
     for i in range(len(num) - 1):
