@@ -1,5 +1,5 @@
 """
-# [9237번 숫자놀이](https://www.acmicpc.net/problem/9237)
+# [9237번 이장님 초대](https://www.acmicpc.net/problem/9237)
 
 ## 13.이장님 초대
 
