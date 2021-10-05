@@ -38,7 +38,6 @@ month = {
     12 : 'December'
 }
 
-
 def date_time(time: str) -> str:
     
 
@@ -53,24 +52,17 @@ def date_time(time: str) -> str:
 
     return "{} {} {} year {} {} {} {}".format(int(left_num[0]), month[int(left_num[1])], left_num[2],\
         int(right_num[0]), h, int(right_num[1]), m)
-    #elif right_num[1] == '01':
-    #    return "{} {} {} year {} hours {} minute".format(int(left_num[0]), month[int(left_num[1])], left_num[2],\
-    #    int(right_num[0]), int(right_num[1]))
-    #elif right_num[0] == '01' or right_num[1] == '01':
-    #    return "{} {} {} year {} hour {} minute".format(int(left_num[0]), month[int(left_num[1])], left_num[2],\
-    #    int(right_num[0]), int(right_num[1]))
-    #
-    #return "{} {} {} year {} hours {} minutes".format(int(left_num[0]), month[int(left_num[1])], left_num[2],\
-    #    int(right_num[0]), int(right_num[1]))``
+
 
 print(date_time("19.09.2999 02:01"))
 
+#  다른 방법1
 #from datetime import datetime
 #def date_time(time: str) -> str:    
 #    return (d := datetime.strptime(time, "%d.%m.%Y %H:%M")).strftime(f"{d.day} %B %Y year {d.hour} hour{'s'*(d.hour != 1)} {d.minute} minute{'s'*(d.minute != 1)}")
 
+#  다른 방법2
 #from datetime import datetime
-#
 #def date_time(time: str) -> str:
 #    s=lambda x: 's' if x!=1 else ''
 #    dt=datetime.strptime(time,'%d.%m.%Y %H:%M')
