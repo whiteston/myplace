@@ -13,6 +13,8 @@ Python Study 혼자 해보기
   * 현재 위 교재로 학습 중이며 판다스에 대한 설명이 굉장히 친절하게 나와있어 책의 실습 예제들만 잘 따라해도 어느정도 마스터 할 수 있을 것 같습니다. 판다스는 책으로 학습하는 것을 추천.
 * [Introduction to Algorithms, Spring 2020 - MIT OpenCourseWare](https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY)
   * 알고리즘, 데이터 구조에 대한 전반적인 이해를 위한 강의. 영어 자막 제공.
+* [인공지능을 위한 알고리즘과 자료구조 - 허재필 교수님](http://www.kmooc.kr/courses/course-v1:SKKUk+SKKU_46+2021_T2/about)
+  * 인공지능 학습을 위해 필수적으로 선행되어야 하는 자료구조 및 알고리즘 주제에 대해 다루고 있습니다. 프로그래밍 언어에 대한 기본적인 지식이 필요합니다.
 
 교육프로그램 및 행사
 -------------
